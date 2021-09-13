@@ -2,11 +2,135 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
-        <title>Will Howard</title>
-        <header>My Portfolio</header>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- Font downloaded at https://www.downloadfonts.io/proxima-nova-font-family-free/ -->
+        <style>
+            @font-face {
+                font-family:  Proxima;
+                src: url(./assets/fonts/Proxima\ Font/);
+            }
+        </style>
+        <title>Will Howard Portfolio</title>
     </head>
-
     <body>
+        
+        <!-- Navigation from header to different blocks -->
+        <header>
+            <h1>
+                <a href="/"></a>WKH</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#work">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="#resume">Resume</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--End Navigation-->
 
+        <div class="portfolio">
+        <!--About Me Block-->
+        <section id="about" class="intro">
+            <h2 class="section-title">About Me</h2>
+            <div class="flex-row">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Molestiae, maxime sit consectetur doloribus nemo earum tempore dicta! Laborum doloremque odit recusandae, veniam fuga labore, nostrum officia deserunt maxime iste ad?
+                </p>
+            </div>
+        </section>
+
+        <!--Work Block-->
+        <section id="work" class="work">
+            <h2 class="section-title-2">Completed Projects</h2>
+            <div class="flex-row">
+                <div class="Project">
+                    <a href="https://whoward2929.github.io/password-generator/" target="_blank">
+                    
+                    <div class="Project-text">
+                        <h3>Password Generator</h3>
+                        <p>Randomizing passwords through code</p>
+                    </div>
+                </div>
+                <div class="Project">
+                    <a href="" target="_blank">
+                        <img src="./assets/images/itadori.jpeg" alt="placeholder"/>
+                    </a>
+                    <div class="Project-text">
+                        <h3>lorem ipsum</h3>
+                        <p>lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="Project">
+                    <a href="" target="_blank">
+                        <img src="" alt="placeholder"/>
+                    </a>
+                    <div class="Project-text">
+                        <h3>Next Code Project</h3>
+                        <p>Additional Fact</p>
+                    </div>
+                </div>
+                <div class="Project">
+                    <a href="https://gracekevin.github.io/project-1/" target="_blank">
+                        <img src="./assets/images/BetsBoard.png" alt="placeholder"/>
+                    </a>
+                    <div class="Project-text">
+                        <h3>Group Project</h3>
+                        <p>Front End Styled Webpage for stock market research based on the subreddit Wallstreetbets popular stocks</p>
+                    </div>
+                </div>
+                <div class="Project">
+                    <a href="" target="_blank">
+                        <img src="./assets/images/placeholderphoto.jpeg" alt="placeholder"/>
+                    </a>
+                <div class="Project-text">
+                    <h3>lorem ipsum</h3>
+                    <p>lorem ipsum</p>
+                </div>
+            </div>
+        </section>
+        s
+        <!--Contact Me Block-->
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-flex">
+                <div class="contact-text">
+                    <!--h3>Phone</h3>-->
+                    <a href="tel:4075066116"><p>205-568-1816</p></a>
+                </div>
+                <div class="contact-text">
+                    <!--<h3>Email</h3>-->
+                    <a href="mailto:whoward939@gmail.com"><p>whoward939@gmail.com</p></a>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer>
+            <h2>© Will Howard</h2>
+            <div class="footer-flex">
+                <!--  Linkedin Link -->
+                <a href="https://www.linkedin.com/in/william-howard-160187b2/" target="_blank">
+                    <!-- https://brand.linkedin.com/downloads-->
+                    <img src="./assets/images/LI-Logo.png" alt="Linkedin logo."/>
+                </a>
+                <!-- https://github.com/logos for Logo download -->
+                <a href="https://github.com/whoward2929" target="_blank">
+                    <!-- https://www.freepnglogos.com/images/512x512-logo-27148.html -->
+                    <img src="./assets/images/GitHub-Mark-Light-120px-plus.png" class="github" alt="Github." />
+                </a>
+            </div>
+        </footer>
+    </div>
     </body>
-</html> 
+</html>
